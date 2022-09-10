@@ -1,1 +1,2 @@
 # test
+примеры f-strings
