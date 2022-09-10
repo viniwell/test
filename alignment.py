@@ -10,7 +10,7 @@ print(f'{number:<8}')
 print(f'{number:_<8}')
 
 
-x=20.123
+x=float(input())
 print(f'{x:0<8}')
 
 print(f'{x:.5f}')
