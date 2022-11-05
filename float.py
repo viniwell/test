@@ -1,9 +1,8 @@
-x=20.123
-print(f'{x:.1f}')
-
-print(f'{x:.1f}%')
-
-y=1000000
-
-print(y)
-print(f'{y:,}')
+x=float(input())
+y=int(input())
+ans=[]
+x=str(int(x*(10**y)))
+x=[str(x) for x in x]
+x.insert(-y, '.')
+x=''.join(str(i) for i in x)
+print(x)
